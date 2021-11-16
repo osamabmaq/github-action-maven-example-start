@@ -11,4 +11,8 @@ public class TestClass {
     void success() {
         assertTrue(true);
     }
+    @Test
+    void failure() {
+        assertTrue(false);
+    }
 }
