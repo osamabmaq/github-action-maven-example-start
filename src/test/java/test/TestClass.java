@@ -12,7 +12,7 @@ public class TestClass {
         assertTrue(true);
     }
     @Test
-    void failure() {
-        assertTrue(false);
+    void nonFailure() {
+        assertTrue(true);
     }
 }
